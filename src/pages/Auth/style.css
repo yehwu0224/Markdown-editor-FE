@@ -1,0 +1,64 @@
+
+.App{
+    position: relative;
+    padding: 30px;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.App .title{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.App .input-field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.input-field input{
+    padding: 0 35px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+.input-field .icon{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 23px;
+    color: #999;
+    transform: translateY(-50%); /* 垂直置中*/
+}
+
+.App .checkbox-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.button input{
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 6px;
+    background-color: #4070f4;
+}
+
+.App .signup-field{
+    margin-top: 30px;
+    text-align: center;
+}
